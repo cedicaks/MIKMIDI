@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
  					 It provides Objective-C abstractions around CoreMIDI, as well as a number of useful
  					 higher level feature not included in CoreMIDI itself.'
                      DESC
-  s.homepage     = 'https://github.com/mixedinkey-opensource/MIKMIDI'
+  s.homepage     = 'https://github.com/cedicaks/MIKMIDI'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Andrew Madsen' => 'andrew@mixedinkey.com' }
   s.social_media_url = 'https://twitter.com/armadsen'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.8'
   
-  s.source       = { :git => 'https://github.com/mixedinkey-opensource/MIKMIDI.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/cedicaks/MIKMIDI.git', :tag => s.version.to_s }
   s.source_files = 'Source/**/*.{h,m}'
   s.private_header_files = 'Source/MIKMIDIPrivateUtilities.h'
   s.requires_arc = true
