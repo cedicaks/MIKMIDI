@@ -241,7 +241,7 @@ const MusicTimeStamp MIKMIDISequencerEndOfSequenceLoopEndTimeStamp = -1;
 
                     MIKMIDINoteEvent *noteEvent = (MIKMIDINoteEvent *)event.event;
                     MIKMIDINoteOffCommand *command = [MIKMIDINoteOffCommand noteOffCommandWithNote:noteEvent.note velocity:0 channel:noteEvent.channel midiTimeStamp:offTimeStamp];
-                    [commandsToSendNow addObject:command];
+                    // [commandsToSendNow addObject:command];
                 }
             }
 
